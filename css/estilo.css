@@ -1,0 +1,88 @@
+/*Limpando*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #333;
+    background: #e6e6e6;
+}
+
+
+/*Layout*/
+
+#area-cabecalho {
+    background-color: #8ea4e2;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background: #CCC;
+    padding: 15px;
+}
+
+
+/*Formatação do Menu*/
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #8ea4e2;
+    background: #FFF;
+}
+
+
+/* Formatações em geral */
+
+h1 {
+    font-size: 2.5em;
+    color: #4e4e4e;
+    margin: 0;
+    padding: 0;
+}
+
+.branco {
+    color: #fff;
+}
